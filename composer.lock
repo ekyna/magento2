@@ -1,10 +1,11 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "08fec56dca881d131e918600f9dfe6f3",
+    "hash": "60f5ef62b984c96f7685c2ff9915b8da",
+    "content-hash": "90da9dbf0dcc48a4abdb8cb6d82ccdf6",
     "packages": [
         {
             "name": "braintree/braintree_php",
@@ -184,6 +185,61 @@
                 "schema"
             ],
             "time": "2016-01-06 14:37:04"
+        },
+        {
+            "name": "lalbert/magento2-fr_fr",
+            "version": "v1.0.0-alpha",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lalbert/magento2-fr_fr.git",
+                "reference": "402bcd7eb07018a68b61797949c8cf2a5c0c05c4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lalbert/magento2-fr_fr/zipball/402bcd7eb07018a68b61797949c8cf2a5c0c05c4",
+                "reference": "402bcd7eb07018a68b61797949c8cf2a5c0c05c4",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "100.0.*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            },
+            "type": "magento2-language",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Luc ALBERT",
+                    "homepage": "https://github.com/orgs/lalbert/people/lucalbert"
+                },
+                {
+                    "name": "Denis",
+                    "email": "contact@bkm.uno",
+                    "homepage": "http://www.bkm.uno"
+                }
+            ],
+            "description": "French (France) language pack for Magento 2",
+            "homepage": "https://github.com/lalbert/magento2-fr_fr",
+            "keywords": [
+                "fr_FR",
+                "language pack",
+                "magento2"
+            ],
+            "time": "2016-01-05 16:58:13"
         },
         {
             "name": "magento/composer",
@@ -3926,6 +3982,7 @@
     "minimum-stability": "alpha",
     "stability-flags": {
         "composer/composer": 15,
+        "lalbert/magento2-fr_fr": 15,
         "phpmd/phpmd": 0
     },
     "prefer-stable": true,
